@@ -94,24 +94,48 @@ export default function Home() {
             </p>
           </div>
           <div className='grid gap-4 lg:grid-cols-3  md:grid-grid-cols-2'>   
-          <div className='col-span-1'>
-            <img src='depression.jpg' alt='img'/>
-          </div>
-          <div className='col-span-1'>
-            <img src='paystackBug.PNG' alt='img'/>
-          </div>
-          <div>
-            <img src='paystackBug2.PNG' alt='img'/>
-          </div>
-          <div className='col-span-1'>
-            <img src='paystackBug3.PNG' alt='img'/>
-          </div>
-          <div className='col-span-1'>
-            <img src='paystackBug4.PNG' alt='img'/>
-          </div>
-          <div className='col-span-1'>
-            <img src='paystackBug5.PNG' alt='img'/>
-          </div>
+          <div className="relative col-span-1">
+              <img src="anxiety.jpg" alt="My Image" className="w-full h-auto"/>
+              <div className="absolute inset-0 bg-black bg-opacity-50 text-black p-4">
+                {/* <h1 className="text-2xl font-bold">My Title</h1> */}
+                <p className="mt-2 bg-white rounded-md text-black text-md text-center">Lost and truama</p>
+              </div>
+            </div>
+          <div className="relative col-span-1">
+              <img src="angry.jpg" alt="My Image" className="w-full h-auto"/>
+              <div className="absolute inset-0 bg-black bg-opacity-50 text-black p-4">
+                {/* <h1 className="text-2xl font-bold">My Title</h1> */}
+                <p className="mt-2 bg-white rounded-md text-black text-md text-center">anger management</p>
+              </div>
+            </div>
+            <div className="relative col-span-1">
+              <img src="truama.jpg" alt="My Image" className="w-full h-auto"/>
+              <div className="absolute inset-0 bg-black bg-opacity-50 text-black p-4">
+                {/* <h1 className="text-2xl font-bold">My Title</h1> */}
+                <p className="mt-2 bg-white rounded-md text-black text-md text-center">Anxiety problem</p>
+              </div>
+            </div>
+          <div className="relative col-span-1">
+              <img src="depression.jpg" alt="My Image" className="w-full h-auto"/>
+              <div className="absolute inset-0 bg-black bg-opacity-50 text-black p-4">
+                {/* <h1 className="text-2xl font-bold">My Title</h1> */}
+                <p className="mt-2 bg-white rounded-md text-black text-md text-center">depression</p>
+              </div>
+            </div>
+            <div className="relative col-span-1">
+              <img src="growth.jpg" alt="My Image" className="w-full h-auto"/>
+              <div className="absolute inset-0 bg-black bg-opacity-50 text-black p-4">
+                {/* <h1 className="text-2xl font-bold">My Title</h1> */}
+                <p className="mt-2 bg-white rounded-md text-black text-md text-center">Personal Growth</p>
+              </div>
+            </div>
+          <div className="relative col-span-1">
+              <img src="special.jpg" alt="My Image" className="w-full h-auto"/>
+              <div className="absolute inset-0 bg-black bg-opacity-50 text-black p-4">
+                {/* <h1 className="text-2xl font-bold">My Title</h1> */}
+                <p className="mt-2 bg-white rounded-md text-black text-md text-center">Special Needs</p>
+              </div>
+            </div>
           </div>
           <div className='m-3 text-center'>
           <a  href="#" className='bg-white text-xs  p-2 rounded-full   outline-1 outline-offset-1 outline-slate-500 shadow-md'>show more</a>
