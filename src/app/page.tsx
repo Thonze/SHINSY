@@ -53,7 +53,7 @@ export default function Home() {
           baseline hover:bg-red-400 shadow-md text-sm'>Book Consultation Now</button>
       </div>
       <div className=' col-span-1  '>
-        <img src="/main.jpg"  alt='image' className='rounded-md shadow-md'/>
+        <img src="main.jpg"  alt='image' className='rounded-md shadow-md'/>
         </div>
       </div>
     </div>
